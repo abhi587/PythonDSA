@@ -16,7 +16,7 @@
 # print(hasDublicate(arr))
 
 
-# Below code Remove the Dublicate elements and return the final list 
+# Below code Remove the Dublicate elements and return the final list FOR SORTED ARRAY
 
 arr = [1,1,2,2,3,4,4]
 
