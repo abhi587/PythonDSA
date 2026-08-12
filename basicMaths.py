@@ -105,15 +105,15 @@
 # digits = len(str(n))
 # sum_val = 0
 
-# while n>0:
-#     last = n%10
-#     sum_val += last ** digits
-#     n = n//10
+while n>0:
+    last = n%10
+    sum_val += last ** digits
+    n = n//10
 
-# if sum_val == original:
-#     print("True")
-# else:
-#     print("False")
+if sum_val == original:
+    print("True")
+else:
+    print("False")
 
 
 
