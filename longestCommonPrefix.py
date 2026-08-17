@@ -12,3 +12,4 @@ def longestCommonPrefix(strs):
 
 print(longestCommonPrefix(["dance","dag","danger","damage"]
 ))
+//
