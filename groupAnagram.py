@@ -1,21 +1,21 @@
-# def group_anagrams(words):
+def group_anagrams(words):
 
-#     groups = {}
+    groups = {}
 
-#     for word in words:
+    for word in words:
 
-#         key = "".join(sorted(word))
+        key = "".join(sorted(word))
 
-#         if key not in groups:
-#             groups[key] = []
+        if key not in groups:
+            groups[key] = []
 
-#         groups[key].append(word)
+        groups[key].append(word)
 
-#     return list(groups.values())
+    return list(groups.values())
 
-# words = ["eat","tea","tan","ate","nat","bat"]
+words = ["eat","tea","tan","ate","nat","bat"]
 
-# print(group_anagrams(words))
+print(group_anagrams(words))
 
 
 
