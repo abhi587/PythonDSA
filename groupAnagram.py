@@ -19,22 +19,22 @@ print(group_anagrams(words))
 
 
 
-class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        combinations = []
+# class Solution:
+#     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+#         combinations = []
 
-        while len(strs) > 0:
-            list_hold = [strs[0]]
-            for i in range(1, len(strs)):
-                element_comp = strs[0]
+#         while len(strs) > 0:
+#             list_hold = [strs[0]]
+#             for i in range(1, len(strs)):
+#                 element_comp = strs[0]
 
-                if sorted(element_comp) == sorted(strs[i]):    
-                    list_hold.append(strs[i])
+#                 if sorted(element_comp) == sorted(strs[i]):    
+#                     list_hold.append(strs[i])
             
-            for i in list_hold:
-                strs.remove(i)
-            combinations.append(list_hold)
+#             for i in list_hold:
+#                 strs.remove(i)
+#             combinations.append(list_hold)
 
             
                 
-        return combinations
+#         return combinations
