@@ -43,21 +43,21 @@
 # Below code is to retur the dublicate element from the list 
 
 
-arr = [1,3,4,2,2,3]
+# arr = [1,3,4,2,2,3]
 
-def return_dub(arr):
+# def return_dub(arr):
     
-    seen = set()
-    result = []
+#     seen = set()
+#     result = []
 
-    for num in arr:
+#     for num in arr:
 
-        if num in seen:
-            result.append(num)
+#         if num in seen:
+#             result.append(num)
 
-        seen.add(num)
+#         seen.add(num)
     
-    return result
+#     return result
 
 
-print(return_dub(arr))
+# print(return_dub(arr))
