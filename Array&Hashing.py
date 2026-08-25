@@ -1,21 +1,21 @@
 # 1 . getConcatenation
 
-# class Solution:
-#     def getConcatenation(self, nums: List[int]) -> List[int]:
-#         return nums+numsA
+class Solution:
+    def getConcatenation(self, nums: List[int]) -> List[int]:
+        return nums+numsA
 
 
 # 2. comtains duplicate
 
-# class Solution:
-#         def hasDuplicate(self, nums: List[int]) -> bool:
-#                 hashset = set()
+class Solution:
+        def hasDuplicate(self, nums: List[int]) -> bool:
+                hashset = set()
 
-#                 for n in nums:
-#                         if n in hashset:
-#                                 return True
-#                         hashset.add(n)
-#                 return False
+                for n in nums:
+                        if n in hashset:
+                                return True
+                        hashset.add(n)
+                return False
 
 
 
