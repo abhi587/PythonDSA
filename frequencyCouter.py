@@ -26,3 +26,35 @@ for word in words:
         freq[word] = 1
 
 print(freq)
+
+
+# frequency counter with return the highest time occurring word
+
+# output = happy
+
+def most_freq_word(sentance):
+    
+    words = sentance.split()
+
+    freq = {}
+
+    for word in words:
+        if word in freq:
+            freq[word] = freq[word] + 1
+        else: 
+            freq[word] = 1
+
+    max_word = ""
+    max_count = 0 
+
+    for word in freq: 
+        if freq[word] > max_count:
+            max_count = freq[word]
+            max_word = word
+
+    return max_word
+
+
+sentance= "happy happy friday happy friday"
+print(most_freq_word(sentance))
+
