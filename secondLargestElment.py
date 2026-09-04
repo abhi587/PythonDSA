@@ -1,19 +1,19 @@
-def second_largest(arr):
+# def second_largest(arr):
 
-    largest = float("-inf")
-    second = float("-inf")
+#     largest = float("-inf")
+#     second = float("-inf")
 
-    for num in arr:
+#     for num in arr:
 
-        if num > largest:
-            second = largest
-            largest = num
+#         if num > largest:
+#             second = largest
+#             largest = num
 
-        elif largest > num > second:
-            second = num
+#         elif largest > num > second:
+#             second = num
 
-    return second
+#     return second
 
-arr = [10, 5, 8, 20, 20]
+# arr = [10, 5, 8, 20, 20]
 
-print(second_largest(arr))
+# print(second_largest(arr))
