@@ -395,10 +395,10 @@ n = 5
 # 5 4 4 4 4 4 4 4 5
 # 5 5 5 5 5 5 5 5 5
 
-# size = 2* n-1
+size = 2* n-1
 
-# for i in range(size):
-#     for j in range(size):
-#         val = n-min(i,j,size-1-i,size-1-j)
-#         print(val, end=" ")
-#     print()
+for i in range(size):
+    for j in range(size):
+        val = n-min(i,j,size-1-i,size-1-j)
+        print(val, end=" ")
+    print()
