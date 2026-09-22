@@ -23,3 +23,5 @@ result = len(res)
 
 print(result)
 
+
+# output :- 4 count of output substring 
