@@ -1,19 +1,19 @@
 ## Below code return true and false if dublcate present in the list 
 
-# def hasDublicate(arr):
-#     hashset = set()
+def hasDublicate(arr):
+    hashset = set()
 
-#     for n in arr:
-#         if n in hashset:
-#             return True
-#         hashset.add(n)
+    for n in arr:
+        if n in hashset:
+            return True
+        hashset.add(n)
 
-#     return False
+    return False
     
 
-# arr = [1,2,3,1]
+arr = [1,2,3,1]
 
-# print(hasDublicate(arr))
+print(hasDublicate(arr))
 
 
 # Below code Remove the Dublicate elements and return the final list FOR SORTED ARRAY
