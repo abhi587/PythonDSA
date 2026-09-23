@@ -61,3 +61,22 @@
 
 
 # print(return_dub(arr))
+
+
+
+nums = [1, 2, 3, 2, 4, 5, 1, 6]
+
+freq = {}
+duplicate = []
+
+for i in nums:
+  if i in freq:
+    freq[i] += 1
+  else:
+    freq[i] = 1
+
+for key, count in freq.items():
+  if count > 1:
+    duplicate.append(key)
+
+print(duplicate)
