@@ -20,7 +20,6 @@ s = 'abcabcdab'
 res = longest_subString(s)
 
 result = len(res)
-
 print(result)
 
 
